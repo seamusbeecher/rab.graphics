@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<!--
+	Hielo by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Hielo by TEMPLATED</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" /> 
+	</head>
+	<body class="subpage" onload="myFunction()">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="logo"><a href="index.html">Welcome <span>by rab.graphics</span></a></div>
+				<a href="#menu">Menu</a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="aboutus.html">About Us</a></li>
+					<li><a href="form.html">Order Now</a></li>
+				</ul>
+			</nav>
+
+		<!-- One -->
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Send your orders directly to us by filling the information below </p>
+						<h2>Order Now</h2>
+					</header>
+				</div>
+			</section>
+
+		<!-- Main -->
+			<div id="main" class="align-center">
+
+				<!-- Elements -->
+					<h2 id="elements">Fill You Order Here</h2>
+					<div class="align-center">
+						<div class="align-center">
+
+								<form id="myForm" method="POST" action="" enctype="text/plain">
+									<div class="row uniform">
+										<div class="6u 12u$(xsmall)">
+											<input type="text" name="name" id="nameid" value="" placeholder="Name" />
+										</div>
+										<div class="6u$ 12u$(xsmall)">
+											<input type="email" name="email" id="emailid" value="" placeholder="Email" />
+										</div>
+										<div class="6u row.uniform">
+											<input type="text" name="number" id="numberid" value="" placeholder="Phone Number" />
+										</div>
+										<div class="6u$ 12u$(xsmall)">
+											<input type="text" name="venmo" id="venmoid" value="" placeholder="Venmo Name" />
+										</div>
+										<div class="12u$"> 
+											<p>Upload your pictures to turn into graphics</p>
+    										<input type="file" id="fileElemid" multiple accept="image/*" class="alt">
+										</div>
+
+										<!-- onchange="handleFiles(this.files)" -->
+
+										<!-- Break -->
+										<div class="12u$">
+											<div class="select-wrapper">
+												<select name="category" id="categoryid" >
+													<option value="">- Backgrounds -</option>
+													<option value="Busy Background">Busy</option>
+													<option value="Solid Color Background">Solid Color</option>
+													<option value="Color Palette Background">Color Palette</option>
+													<option value="Cutom Background(Check Message)">Custom</option>
+												</select>
+											</div>
+										</div>
+										<!-- Break -->
+										<div class="12u$">
+											<textarea name="message" id="messageid" placeholder="Information regarding the graphic(s) Ex: Color of background, features outlined (moree than 3 increse price) etc." rows="6"></textarea>
+										</div>
+										<!-- Break -->
+										<div class="12u$">
+											<ul class="actions">
+												<li><input type="submit" value="Send Message" id="submitButton"/></li>
+												<li><input type="reset" value="Reset" class="alt" /></li>
+											</ul>
+										</div>
+									</div>
+								</form>
+
+								<hr />
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="https://www.facebook.com/Rabgraphics-107386507647261" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/rab.graphics/?hl=en" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="mailto:rab.graphics97@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy; Untitled. All rights reserved.
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+			
+				function myFunction() {
+					alert("Upon pressing the 'Submit' button, your defualt email will open and will have all the information from the form within the email. Make sure the image is attached in the email. You may have to attach the image to the email again.");
+				}
+			
+			</script>
+
+	</body>
+</html>
